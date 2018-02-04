@@ -81,7 +81,7 @@ class Autocomplete extends React.Component {
     render () {
         return (
             <div className="inputContainer">
-                <label htmlFor="inputTag">Enter state:</label>
+                <label htmlFor="inputTag">Enter country:</label>
                 <div className="inputAutocomplete">
                     <input value={this.state.inputValue} style={ {backgroundColor: this.state.inputColor, borderRadius: this.state.borderRadius} } name="inputTag" type="text" onChange={this.processChange}/> 
                     {this.renderAutocompleteList()}                   
